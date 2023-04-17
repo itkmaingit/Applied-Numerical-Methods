@@ -20,7 +20,6 @@ int main()
 
   while (true)
   {
-    std::cout << std::setprecision(7) << std::fixed << a << std::endl;
     if (abs(f(a)) < error)
     {
       std::cout << std::setprecision(7) << std::fixed << a << std::endl;
